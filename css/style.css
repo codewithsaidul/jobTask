@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .linearText {
+        background: linear-gradient(90deg, #f5bd4d 0.36%, #f89222 99.88%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@layer utilities {
+
+
+  .backgroundLinear {
+    background: linear-gradient(90deg, #f5bd4d 00.36%, #f89222 9999.88%);
+  }
+}
